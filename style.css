@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Profil{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+    margin-top: -100px;
+
+}
+body{
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
+
+li{
+    display: flex;
+}
+
+.Fond{
+    width: 100%;
+    padding-bottom: 10px;
+    height: 200px;
+}
+.Contacts{
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 80px;
+}
+.facebook{
+    width: 70px;
+}
+.snapchat{
+    width: 70px;
+}
+.linkedin{
+    width: 70px;
+}
+.insta{
+    width: 70px;
+}
+
+.icones{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
